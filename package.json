@@ -1,5 +1,5 @@
 {
-  "name": "svelte-adapter-firebase",
+  "name": "@filiph/svelte-adapter-firebase",
   "description": "Adapter for Svelte apps that integrates a Firebase Hosting Website with Cloud Functions or Cloud Run for server side rendering.",
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
     "serverless",
     "ssr"
   ],
-  "version": "0.15.0",
+  "version": "1.0.0",
   "type": "module",
   "exports": {
     ".": {
@@ -41,7 +41,7 @@
     "esbuild": "^0.17.0"
   },
   "peerDependencies": {
-    "@sveltejs/kit": "^1.0.0-next.587"
+    "@sveltejs/kit": "^1.0.0 || ^2.0.0"
   },
   "devDependencies": {
     "@sveltejs/kit": "^1.1.1",
